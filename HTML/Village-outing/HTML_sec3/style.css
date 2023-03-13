@@ -1,0 +1,15 @@
+div{
+ height: 200px;
+ background-color: aqua;
+ color:antiquewhite;   
+ text-align: center;
+}
+#shadow{
+    text-shadow: 10px 10px chocolate;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+}

@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    
+}
+#rotate{
+    transform: rotate(60deg);
+    background-color: brown;
+    
+}
+#skew{
+    transform: skew(60deg);
+
+}
+#translate{
+    transform: translate(20px,20px);
+}

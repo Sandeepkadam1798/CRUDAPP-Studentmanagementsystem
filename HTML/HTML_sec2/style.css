@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.classone{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+}
+
+.classone ul {
+    display: flex;
+flex-direction: row;
+margin-top: 5px;
+
+}
+
+.classone ul li{
+    margin-right: 10px;
+    margin-top: 5px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.classmain{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
