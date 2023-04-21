@@ -1,0 +1,83 @@
+@import "./index.scss";
+
+/* tour list component */
+.tourlist {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+@media screen and (min-width: 768px) {
+  .tourlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tourlist {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1140px) {
+  .tourlist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* tour component */
+.tour {
+  background: $mainWhite;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+
+  img {
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    display: block;
+  }
+}
+.img-container {
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  display: block;
+  color: $mainGreen;
+  font-size: 2rem;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  margin-top: 0;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+.img-container:hover .close-btn {
+  opacity: 1;
+}
+
+.tour-info {
+  padding: 1rem 0.5rem;
+  background: $mainGrey;
+}
+.tour {
+  h3 {
+    text-transform: uppercase;
+    color: $mainGreen;
+  }
+  h4 {
+    text-transform: capitalize;
+    color: $mainBlack;
+    margin: 0.2rem 0 0.6rem 0;
+  }
+  h5 {
+    text-transform: capitalize;
+  }
+  h5 span {
+    color: $mainGreen;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}

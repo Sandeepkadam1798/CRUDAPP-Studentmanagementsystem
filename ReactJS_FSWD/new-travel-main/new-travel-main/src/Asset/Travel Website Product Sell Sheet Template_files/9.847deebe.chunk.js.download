@@ -1,0 +1,2 @@
+(this["webpackJsonpgraphic-frontend-foudation"]=this["webpackJsonpgraphic-frontend-foudation"]||[]).push([[9],{1364:function(n,t,e){"use strict";e.r(t);var o=e(0),a=e.n(o),c=e(19),r=e(21),i=e(511),u=e(31);t.default=function(){var n=Object(c.c)(),t=Object(c.d)((function(n){return Object(u.u)(n).alert})),e=t.display,o=t.message,f=function(){n(Object(r.V)())};return a.a.createElement(i.a,{open:e,onClose:f,confirmText:"OK",handleConfirm:f,title:o})}}}]);
+//# sourceMappingURL=9.847deebe.chunk.js.map

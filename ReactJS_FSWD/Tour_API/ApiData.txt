@@ -1,0 +1,112 @@
+const  data=[
+    {
+        id:1,
+        Title:"Shree Swaminarayan Mandir"
+        location:"pune",
+        image:"1_image",
+        fees:'$500'
+        description:"It has 23 Samrans, including 7 giant ones, which are a treat to the eye. There are 109 torans to beautify the Mandir, and 140 carved pillars form the base of the Shree Swaminarayan temple. There are more than 10000 carvings on the temple's walls and pillars, signifying the Indian and Maharashtrian culture at its best."
+        
+        
+    },
+    {
+        id:2,
+        Title:"Gateway of India"
+        location:"mumbai",
+        image:"2_mumbai.png",
+        fees:'$700'
+        description:"The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai (Bombay), India."
+        
+    },
+    {
+        id:3,
+        Title:"InterContinental Bali Resort"
+        location:"Indonesia",
+        image:"3_Bali",
+        fees:'$1500'
+        description:"Bali is a beautiful island province of Indonesia, located in the westernmost end of the Lesser Sunda Islands, lying between Java to the west and Lombok to the east. It is a popular travel destination known for its stunning beaches, volcanic mountains, rice paddies, lush forests, and unique Hindu culture. "
+        
+        
+    },
+    {
+        id:4,
+        Title:"Great Barrier Reef"
+        location:"Australia",
+        image:"4_GreatBarrier",
+        fees:'$900'
+        description:"The Great Barrier Reef is the world's largest coral reef system, located in the Coral Sea off the coast of Australia. It is composed of over 2,900 individual reefs and 900 islands."
+        
+    },
+    {
+        id:5,
+        Title:"Big Daddy Casino"
+        location:"Goa,India",
+        image:"5_BiggDaddy",
+        fees:'$400'
+        description:"Big Daddy operates out of a 24-year-old refurbished ship that’s split into five levels. On the ground floor is the largest gaming hall, stuffed with roulette tables, electronic stadiums and every gambling activity known to man."
+        
+    },
+    {
+        id:6,
+        Title:"Keral Tourism"
+        location:"Keral",
+        image:"6_image",
+        fees:'$300'
+        description:"Kerala is a state in the southwestern region of India, known for its diverse culture, natural beauty, and vibrant traditions. Located along the Malabar Coast, Kerala is often referred to as the "God's Own Country" for its lush green landscapes, pristine beaches, serene backwaters, and scenic hill stations."
+        
+    },
+    {
+        id:7,
+        Title:"Burj Khalifa"
+        location:"Dubai",
+        image:"7_image",
+        fees:'$1300'
+        description:"The Burj Khalifa is a skyscraper located in Dubai, United Arab Emirates, and is currently the tallest building in the world, standing at a height of 828 meters (2,716 feet)."
+        
+    },
+    {
+        id:8,
+        Title:"Dubai Frame"
+        location:"Dubai",
+        image:"8_image",
+        fees:'$1500'
+        description:"The Dubai Frame is a landmark attraction in Dubai, United Arab Emirates, located in the Zabeel Park neighborhood. It is a 150-meter-high, 93-meter-wide structure in the shape of a frame, resembling a picture frame or window."
+        
+    },
+    {
+        id:9,
+        Title:"Baros Maldives"
+        location:"Maldives",
+        image:"9_image",
+        fees:'$1500'
+        description:"Baros Maldives is a luxury resort located in the North Male Atoll of the Maldives, a popular destination for tourists seeking beautiful beaches, turquoise waters, and serene natural surroundings. The resort is situated on a private island and is surrounded by a beautiful coral reef, making it a popular spot for snorkeling and diving enthusiasts."
+        
+    },
+    {
+        id:10,
+        Title:"Cheval Blanc Randheli"
+        location:"Maldives",
+        image:"10_image",
+        fees:'$2000'
+        description:"Cheval Blanc Randheli is a luxury resort located in the Noonu Atoll of the Maldives, known for its stunning natural beauty and pristine beaches. The resort is situated on a private island and features 45 villas, each designed to offer guests the ultimate in comfort and luxury."
+        
+    },
+    {
+        id:11,
+        Title:"Manali"
+        location:"Manali,india",
+        image:"11_image",
+        fees:'$500'
+        description:"Manali is a popular hill station located in the Indian state of Himachal Pradesh. Situated at an altitude of 2,050 meters above sea level, it is surrounded by snow-capped mountains, beautiful valleys, and lush green forests. Manali is a popular tourist destination, known for its scenic beauty, adventure sports, and cultural attractions.."
+        
+    },
+    {
+        id:12,
+        Title:"Lion point"
+        location:"Lonavala,india",
+        image:"12_image",
+        fees:'$500'
+        description:"Lonavla is a scenic hill station located in the Indian state of Maharashtra, about 64 km from Mumbai. It is situated at an altitude of 622 meters above sea level and is surrounded by beautiful valleys, hills, and waterfalls"
+        
+    },
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View Records</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<ul>
+                <li><a href="./index.html">Home</a></li>
+				<li><a href="./add.html">Add</a></li>
+				<li><a href="./view.html">View</a></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<h1>View Records</h1>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Gender</th>
+						
+					</tr>
+				</thead>
+				<tbody id="recordTableBody"></tbody>
+			</table>
+		</div>
+		<script>
+			
+			const recordTableBody = document.getElementById("recordTableBody");
+
+			const records = JSON.parse(localStorage.getItem("records"));
+            
+            console.log(records)
+
+			if (records && records.length > 0) {
+			
+				records.forEach(record => {
+					
+					const row = document.createElement("tr");
+
+					
+					const nameCell = document.createElement("td");
+					nameCell.textContent = record.name;
+					const ageCell = document.createElement("td");
+					ageCell.textContent = record.age;
+					const genderCell = document.createElement("td");
+					genderCell.textContent = record.gender;
+					
+					
+
+				
+					row.appendChild(nameCell);
+					row.appendChild(ageCell);
+					row.appendChild(genderCell);
+					
+
+					
+					recordTableBody.appendChild(row);
+				});
+			} else {
+				
+				const noRecordsRow = document.createElement("tr");
+				const noRecordsCell = document.createElement("td");
+				noRecordsCell.colSpan = 4;
+				noRecordsCell.textContent = "No records to display";
+				noRecordsRow.appendChild(noRecordsCell);
+				recordTableBody.appendChild(noRecordsRow);
+			}
+		</script>
+	</div>
+</body>
+</html>

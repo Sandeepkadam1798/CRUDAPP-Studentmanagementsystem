@@ -4,57 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQuery</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
+    <title>Jqury</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Welcome to jquery</h1>
+    <h1>sandeep</h1>
 
-    <p id="p-tag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate impedit illo nobis! In architecto numquam beatae id. A, animi ullam quia doloremque deserunt earum similique quam, dolore rem repudiandae delectus.</p>
-    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, exercitationem veritatis consectetur tempore ut praesentium fuga, sed labore quam blanditiis doloribus suscipit reiciendis odit pariatur quas accusamus? Atque, exercitationem cupiditate!</p>
-    <input type="button" id="btn" value="click  me" onclick="hide()">
+    <div id="box">
+        <h2>textbox</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, facilis quaerat. Accusamus suscipit ipsam vel doloremque explicabo. Accusamus dolorum nostrum unde suscipit amet a, et aperiam aliquam impedit quidem temporibus!</p>
+    </div>
     <script>
-        // function hide(){
-
-        //     document.getElementById('p-tag').style.visibility='hidden';
-
-        // }
-
-        $(document).ready($('#btn').click(function(){
-            $('#p2').toggle();
-        }))
-
+        $(document).ready(function(){
+            $('#box').css('color','red');
+        })
+        $('#box').dblclick(function(){
+            $('#box').css('color','yellow');
+        })
+        $('#box').contextmenu(function(){
+            $('#box').css('color','red');
+        })
     </script>
+    
 </body>
 </html> -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>jQuery Example</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>jQuery Example</h1>
-	<p>This is a paragraph.</p>
-	<button>Click me</button>
-	<img src="./Sunset_2007-1.jpg" alt="placeholder image">
+    <h1>Sandeep KadAm</h1>
 
-	<script>
-		// Event handling
-		$('button').click(function() {
-			alert('Button clicked!');
-		});
+    <div id="box">
+        <h2>sandeep</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, minima modi! Dolorum, qui voluptate cumque quia suscipit animi vero laudantium! Veritatis cupiditate vero dolores distinctio modi voluptatibus quos ipsum hic.</p>
+    </div>
+    <script>
+               $(document).ready(function(){
+            $('p').css('color','red');
+        })
 
-		// Effects
-		$('img').hide(1000).show(1000);
-		$('p').fadeOut(1000).fadeIn(1000);
-
-		// DOM manipulation
-		$('h1').text('New heading');
-		$('p').html('New <em>paragraph</em>');
-		$('img').attr('src', 'Sunset_2007-1.jpg');
-	</script>
+    </script>
 </body>
 </html>

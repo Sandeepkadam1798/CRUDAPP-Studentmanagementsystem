@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container {
+    display: flex;
+  }
+  nav {
+    background-color: #333;
+    height: 100vh;
+    width: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input,
+  select {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+  button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  td,
+  th {
+    border: 1px solid #333;
+    padding: 10px;
+    color: rgb(3, 3, 3);
+  }

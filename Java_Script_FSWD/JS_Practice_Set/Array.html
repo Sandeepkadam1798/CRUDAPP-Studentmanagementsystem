@@ -29,13 +29,13 @@
         document.write("<br><h3>Join Method:</h3>" +c);
 
         
-        //array pop Method -->Remove first element of an array
+        //array shift Method -->Remove first element of an array
         b.shift();
         document.write("<br><h3>shift Method:</h3>" +b);
         
         
         //array Unshift Method -->adds new items to the beginning of an array:
-        a.unshift(101,202);
+        a.unshift(101,202,303);
         document.write("<br><h3>unshift Method:</h3>" +a);
 
         
@@ -58,7 +58,7 @@
         
 
         let e=[2,4,5,8,10];
-        let z=e.map((n)=>{ return n*n;
+        let z=e.map((n)=>{ return n*n*n;
         })
         document.write("<br><h3>Map Method:</h3>" +z);
               
