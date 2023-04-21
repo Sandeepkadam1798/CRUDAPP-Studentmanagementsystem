@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    <script>
+        let person={name: 'sandeep',lastname: 'kadam',age:25,location : 'pune',fullname: function(){
+            return this.name+" " +this.lastname;
+        }};
+
+        let person1=new Object();
+        person1={name: 'Rohan',age: 25,location : 'pune'}
+
+        document.write("The name of persone is:"+person.name+"<br>The age is:" +person.age+"<br>The location is :"+person.location);
+
+        for(i in person1)
+        {
+            document.write("<br><h3>"+person1[i]+"</h3>");
+        }
+
+        //Methods are functions stored as object properties.
+
+        document.write("<h3>The full name is:"+person.fullname()+"</h3>");
+
+        // in build function
+
+        let msg="<h3>sandeep kadam:";
+        let x=msg.toLocaleUpperCase();
+        document.write("To uppercase"+x+ "</h3>");
+
+        document.write("<h1>the output is showing object object:"+person+"</h1>");
+
+    </script>
+</body>
+</html>

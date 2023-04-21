@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>callback</title>
+</head>
+<body>
+    <script>
+// //sync programming
+//         let a=prompt("what is your name");
+//         let b=prompt("what is your age");
+//         let c=prompt("where are you living");
+
+//         document.write('<h3>Name is:'+a+ '<br>age is :' +b+ '<br>city is :'+c +'</h3>');
+
+function register(callback){
+
+    setTimeout(() => {
+
+        document.write('<br>Register end');
+        callback();
+        
+    }, 1000);
+
+    
+}
+function sendEmail(callback){
+ 
+    setTimeout(() => {
+    document.write('<br>Email end');
+    callback();
+        
+    }, 2000);
+
+    
+}
+function login(callback){
+
+    setTimeout(() => {
+        document.write('<br>login end');
+        callback();
+        
+    }, 1000);
+
+    
+
+}
+function getuserData(callback){
+
+    setTimeout(() => {
+          document.write('<br>Got user Data');
+          callback();
+    }, 3000);
+
+    
+}
+function displayUserData(callback){
+
+    setTimeout(() => {
+        
+        document.write('<br>Display User Data');
+        callback();
+    }, 1000);
+
+    
+}
+//callback hell
+  
+register(function()
+{
+    sendEmail(function(){
+
+        login(function(){
+
+            getuserData(function(){
+
+                displayUserData();
+
+            });
+
+
+    });
+
+});
+});
+
+
+document.write('oher appliication work');
+    </script>
+</body>
+</html>

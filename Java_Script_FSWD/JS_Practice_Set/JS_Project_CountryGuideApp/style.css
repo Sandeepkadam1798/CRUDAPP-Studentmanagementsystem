@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  
+}
+body {
+  
+  background-image:url(./kelly-mccrimmon-Hht1nb9Ngrc-unsplash\ \(1\).jpg )  ;
+    
+}
+
+.header-1{
+background-color: #0b1431;
+  text-align: left;
+
+  font-family: 'Climate Crisis', cursive;
+font-family: 'Mynerve', cursive;
+
+  font-size: 20px;
+  color: rgb(252, 246, 246);
+  
+}
+.container {
+  background-color: #0b1431;
+  width: 80vw;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+  font-family: "Poppins", sans-serif;
+}
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+  font-family: "Poppins", sans-serif;
+}
+.search-wrapper button {
+  font-size: 1em;
+  background-color: yellow;
+  color: #e91313;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+  font-family: "Poppins", sans-serif;
+}
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  border-bottom: 2px solid #fccf07;
+  outline: none;
+  color: rgb(8, 8, 8);
+  font-family: "Poppins", sans-serif;
+}
+#result {
+  margin-top: 1.25em;
+  font-family: "Poppins", sans-serif;
+}
+.container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
+  font-family: "Poppins", sans-serif;
+}
+.container h2 {
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+  font-family: "Poppins", sans-serif;
+}
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: rgb(243, 239, 4);
+  font-family: "Poppins", sans-serif;
+}
+.container span {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+.container h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ff465a;
+  font-family: "Poppins", sans-serif;
+}

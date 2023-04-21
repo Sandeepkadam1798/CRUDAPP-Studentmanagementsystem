@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clsses and object</title>
+</head>
+<body>
+    <!-- constractor  -->
+
+<script> 
+
+function Person(age,name,lname,mno){
+    this.page=age;
+    this.pnme=name;
+    this.lastname=lname;
+    this.mobile=mno;
+    
+
+}
+
+let p1=new Person("20","sandeep","kdm","7038");
+document.write("the first name is   " +p1.pnme + "<br>");
+
+// classes
+
+class hello{
+    message(){  //msg is method
+    document.write("hello evrey one"+"<br>");
+}
+}
+let a= new hello();
+a.message(); //a is object
+
+//constractor function
+
+class student{
+    constructor(){   //method ko call nahi dena padta
+        document.write("happy new year" + "<br>");
+    }
+    }
+    let c= new student();
+    let d= new student();
+
+    //parameteries constractor
+
+    class car{
+        constructor(name,brand){
+
+            this.cname=name;
+            this.brands=brand;
+
+            document.write("car is BMW" +"<br>");
+
+        }
+        cars(){
+
+            document.write("car name is " +this.cname + " "+"brand is  " +this.brands +"<br>");
+        }
+
+        static staticMethod(){
+            document.write("finish");
+        }
+    }
+    
+    let z=new car("tata","volov0");
+    z.cars();
+    car.staticMethod();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.overlay {
+    width: auto;
+    height: 18vh;
+    background-color: black;
+    z-index: -4;
+    filter: drop-shadow(4px 5px 9px black);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+
+a:hover {
+    color: aqua !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+.active {
+    color: aqua;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+    z-index: 2;
+    position: relative;
+    right: 50px;
+}
+
+section {
+    padding-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 4.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.section-head {
+    color: rgb(19, 114, 222);
+}
+
+.img-contain {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 28vw;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+    filter: drop-shadow(2px 2px 5px black);
+    z-index: 99;
+}
+
+.thumbnail p {
+    color: #000;
+    position: relative;
+    top: 90%;
+    text-align: center;
+}
+
+
+/* .thumbnail:nth-child(1) {
+    background-image: url('../images/1br-3.jpg');
+    margin-right: 0.5vw;
+}
+
+.thumbnail:nth-child(2) {
+    background-image: url('../images/Superior_Studio.jpg');
+    margin-left: 0.5vw;
+} */
+
+input {
+    border-top: 2px solid #000 !important;
+    border-left: 2px solid #000 !important;
+    border-bottom: 2px solid gray !important;
+    border-right: 2px solid gray !important;
+    filter: drop-shadow(2px 4px 6px #000);
+}
+

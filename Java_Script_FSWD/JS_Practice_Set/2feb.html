@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Dom Manipulation</title>
+</head>
+<body>
+    
+    <!-- <script>
+        var e=[8,9,12,3,2,5];
+        
+        let z=e.map((n)=>{ return n*n;
+        })
+        document.write("<br><h3>Map Method:</h3>" +z);
+
+        document.write(a);
+    </script> -->
+    <div id="div-container">Welcome to js</div>
+    <div>
+        <input type="button" value="Submit " onclick="display()">
+    </div>
+    <p id="para-1" ondblclick="change()">HTML changes</p>
+    <script>
+        function display()
+        {
+            // alert("button is clicked");
+            document.getElementById('div-container').innerHTML="<h1>clicked!</h1>"
+            document.getElementById('div-container').style.background='yellow';
+            document.getElementById('par-1').style.background='yellow';
+            
+        }
+// //onfocus
+//    <p id="para-1" onb="change()">HTML changes</p>
+
+        
+    </script>
+</body>
+</html>

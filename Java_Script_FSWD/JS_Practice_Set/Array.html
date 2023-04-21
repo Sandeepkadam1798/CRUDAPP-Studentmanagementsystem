@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3,4,5];
+        let b=['sandeep','deepali','deepak','raj','santosh'];
+        document.write("<br><h3>toString Method:</h3>"+b.toString());
+
+        //array push Method ---->Add new element of an Array
+        b.push('sarthak');
+        document.write("<br><h3>Push Method:</h3>" +b);
+        
+
+        //array pop Method -->Remove lst element of an array
+        b.pop();
+        document.write("<br><h3>Pop Method:</h3>" +b);
+
+
+        
+        //array Join Method -->join all the element using seprator
+
+        let c=b.join("+");
+        document.write("<br><h3>Join Method:</h3>" +c);
+
+        
+        //array pop Method -->Remove first element of an array
+        b.shift();
+        document.write("<br><h3>shift Method:</h3>" +b);
+        
+        
+        //array Unshift Method -->adds new items to the beginning of an array:
+        a.unshift(101,202);
+        document.write("<br><h3>unshift Method:</h3>" +a);
+
+        
+        //array Concat Method -->Join two arrays:
+        let d=a.concat(b);
+        document.write("<br><h3>Concat Method:</h3>" +d);
+        
+      //array filter Method -->Return an array of all values in ages[] that are 18 or over:
+        const ages = [32, 33, 16, 40];
+
+        document.write("<br><h3>Filter Method</h3>"+ages.filter(checkAdult));
+
+        function checkAdult(age) {
+        return age >= 18;
+         }
+
+
+         
+        //array Map Method -->Return a new array with the square root of all element values:
+        
+
+        let e=[2,4,5,8,10];
+        let z=e.map((n)=>{ return n*n;
+        })
+        document.write("<br><h3>Map Method:</h3>" +z);
+              
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+input {
+    
+    border-top: 2px solid #000 !important;
+    border-left: 2px solid #000 !important;
+    border-bottom: 2px solid gray !important;
+    border-right: 2px solid gray !important;
+    filter: drop-shadow(2px 4px 6px #000);
+}
+
+
+section {
+    padding-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 4.5vw;
+    padding-bottom: 1.5vw;
+}
+
+#exampleFormControlInput1{
+
+    width: 60%;
+}
+
+.btn{
+
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

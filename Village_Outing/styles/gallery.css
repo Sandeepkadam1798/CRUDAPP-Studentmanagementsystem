@@ -1,0 +1,25 @@
+section {
+    padding-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 4.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.figure{
+    justify-content: center;
+    
+
+
+}
+.figure:hover {                              /*for img animation:*/
+    width: 100%;
+    transition: all 1s ease-in-out;
+    filter: drop-shadow(2px 2px 5px rgb(147, 221, 50));
+}
+
+.img-contain {
+    display: flex;
+    height: 40vh;
+    width: auto;
+}
+

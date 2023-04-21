@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>Welcome to jquery</h1>
+
+    <p id="p-tag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate impedit illo nobis! In architecto numquam beatae id. A, animi ullam quia doloremque deserunt earum similique quam, dolore rem repudiandae delectus.</p>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, exercitationem veritatis consectetur tempore ut praesentium fuga, sed labore quam blanditiis doloribus suscipit reiciendis odit pariatur quas accusamus? Atque, exercitationem cupiditate!</p>
+    <input type="button" id="btn" value="click  me" onclick="hide()">
+    <script>
+        // function hide(){
+
+        //     document.getElementById('p-tag').style.visibility='hidden';
+
+        // }
+
+        $(document).ready($('#btn').click(function(){
+            $('#p2').toggle();
+        }))
+
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Example</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+	<h1>jQuery Example</h1>
+	<p>This is a paragraph.</p>
+	<button>Click me</button>
+	<img src="https://via.placeholder.com/150" alt="placeholder image">
+
+	<script>
+		// Event handling
+		$('button').click(function() {
+			alert('Button clicked!');
+		});
+
+		// Effects
+		$('img').hide(1000).show(1000);
+		$('p').fadeOut(1000).fadeIn(1000);
+
+		// DOM manipulation
+		$('h1').text('New heading');
+		$('p').html('New <em>paragraph</em>');
+		$('img').attr('src', 'https://via.placeholder.com/200');
+	</script>
+</body>
+</html>

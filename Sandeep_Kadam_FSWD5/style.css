@@ -1,0 +1,130 @@
+
+header {
+
+    background-image: url(./img/hederimagelogo.jpg);
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: left;
+    position: relative;
+    display: grid;
+    box-shadow: 12px 12px 2px 1px rgba(201, 155, 31, 0.2);
+
+
+    /* width: 1147px; */
+}
+
+header h1 {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Moon Dance', cursive;
+    justify-content: center;
+    font-size: 50px;
+padding: 0px;
+
+
+
+
+}
+
+header p {
+    text-align: center;
+    font-family: 'Moon Dance', cursive;
+    justify-content: center;
+    height: 30px;
+    padding: 0px;
+    margin: 5px;
+}
+/* 
+nav a {
+
+    color: rgb(2, 7, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: left;
+
+} */
+nav a{
+    display: inline;
+    line-height: 30px;
+    margin: 20px;
+    color: rgb(2, 7, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    
+}
+
+section p {
+    margin: 20px;
+}
+
+/* table{
+    text-align: center;
+    
+} */
+table {
+    text-align: center;
+    margin: 20px;
+}
+
+td {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* td div{
+    background-color: yellow;
+    border-radius: 10px;
+} */
+td img {
+    padding: 0px;
+}
+
+
+footer {
+
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(34, 27, 27);
+}
+
+@media screen and (max-width:480px) {
+    body {
+
+        background-color: rgb(233, 175, 87);
+        color: rgb(243, 18, 18);
+        display: flex;
+        
+
+    display: grid;
+    }
+    img{
+        
+        display: flex;
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        width: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(43, 197, 202);
+        color: rgb(243, 18, 18);
+        position: relative;
+        
+    }
+    
+}

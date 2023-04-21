@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+
+<body>
+    <script>
+
+        function ABC() {
+
+            let a = parseInt(prompt("Enter First Number"));
+            let b = parseInt(prompt("Enter second Number"));
+            let c = a + b;
+            document.write("the addition is", c);
+        }
+
+        function XYZ() {
+            document.write("Hello World")
+        }
+        XYZ();
+        XYZ();
+
+        //parameter  Funcion
+
+        function PQR(a, b) {
+            document.write("the name is : " + a + " " + b);
+        }
+        PQR("Sandip", "Kadam");
+        PQR("deepli", "Kadam");
+
+        function ab(a, b) {
+
+            document.write(a + b);
+
+        }
+        // ab(10, 5);
+
+        //function with return value
+
+        function marks(math,hindi,mar){
+            var s= math+hindi+mar;
+            return s;
+        }
+
+        function percentage(tt){
+            var per=tt/300*100;
+            document.write(per);
+        }
+        var total=marks(80,80,80);
+        percentage(total);
+
+
+    </script>
+</body>
+
+</html>
