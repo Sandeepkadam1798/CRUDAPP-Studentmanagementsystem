@@ -42,3 +42,18 @@
 // // fs.writeFileSync(filepath,'this is apple file');
 // // fs.writeFileSync(filepaths,'this is pinapple file');
 
+
+const express=require ('express');
+
+const app=express();
+app.get('',(req,resp)=>{
+resp.send("hii sandeep this is home page");
+
+});
+
+app.get('/about',(req,resp)=>{
+    resp.send("hii sandeep this is About page");
+
+})
+
+app.listen(5000);
